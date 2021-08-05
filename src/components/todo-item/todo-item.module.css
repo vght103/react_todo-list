@@ -1,0 +1,36 @@
+.todo_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 0.8em;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.toggle {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  left: 1em;
+  /* flex: 1 1 20%; */
+}
+
+.label {
+  /* flex: 1 1 80%; */
+  text-align: center;
+}
+
+.label.completed {
+  text-decoration: line-through;
+}
+
+.delete {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 1em;
+  cursor: pointer;
+  /* display: none; */
+}

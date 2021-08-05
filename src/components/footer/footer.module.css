@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo_count {
+  margin-left: 0.8em;
+}
+
+.status {
+  display: flex;
+}
+
+.status > li {
+  margin-right: 0.8em;
+  cursor: pointer;
+}

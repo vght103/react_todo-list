@@ -1,0 +1,27 @@
+.app {
+  /* background-color: bisque; */
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_btn {
+  padding: 1em;
+  border: none;
+  background-color: darkgray;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.todo_wrap {
+  background-color: rgb(241, 241, 241);
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+}
+
+.todo_container {
+  width: 30rem;
+}
